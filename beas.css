@@ -1,0 +1,100 @@
+body { background-color: #000000;
+       font-family: Verdana, Arial, sans-serif;
+}
+#wrapper { width: 1080px;
+           margin: auto;
+		   background-color: #e38d43;;
+		   color: #000000;
+		   padding: 0px;
+}
+div {padding:0px;
+	 border-spacing: 0px;
+	
+}
+header {color: #FFFFFF; 
+     background-repeat: no-repeat;
+     background-color: #2ab2d4;
+	 font-family: montserrat;
+	 font-size: 36px;
+     text-align: center;
+	 margin-top: -51px;
+	
+}
+nav { text-align: center;
+      width: 1080px; 
+	  font-family: montserrat;
+	  word-spacing: 7em;
+	  margin-top: -40px;
+	  margin-bottom: -8px
+}
+nav ul { list-style-type: none;
+		 background-color: #e38d43;
+	 }
+nav li { display: inline;
+	 	 background-color: #e38d43;
+}
+nav a { text-decoration: none;
+		display: inline-block;
+}
+nav a:link { color: #ffffff; }
+nav a:visited{ color: #000000; }
+nav a:hover { color: #2ab2d4; }
+
+
+main { background-color: #ffffff;
+	   min-height: 300px;
+	   padding-left: 20px;
+	   padding-top: 2px;
+	   display: block;
+}
+main img { float: right;
+              padding: 0px;
+			  padding-top: 20px
+}
+h2 { font-family: montserrat;}
+h3 {font-family: montserrat}
+p {font-family: montserrat}
+
+#gallery { position: relative;
+		   display: inline-block;
+		   padding-bottom: 20px;
+}
+h1 {font-family: montserrat;}
+
+#gallery ul {list-style-type: none;
+    width: 300px; 
+}
+#gallery li { display: inline; 
+     float: left;
+	 padding: 10px; 
+}
+#gallery img { border-style: none;
+}
+#gallery a { text-decoration: none;
+             font-style: italic;  
+             color: #eaeaea; 
+}
+#gallery span { position: absolute;
+                left: -1000px;
+               opacity: 0;
+              transition:  opacity 1s ease-in-out; 
+}
+#gallery a:hover span {     
+			position: absolute;
+			top: 16px;
+			left: 320px; 
+			text-align: center; 
+            opacity: 1; 
+}
+figure {    position: absolute;
+			left: 280px; 
+			text-align: center; 
+            opacity: .25;
+}
+footer { background-color: #2ab2d4;
+       padding: 20px;
+       text-align: center;
+	   font-size: small;
+	   font-style: italic;
+}
+	  
